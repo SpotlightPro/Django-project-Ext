@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{%  block content %}
+
+<h1 xmlns="http://www.w3.org/1999/html">Join Members Form Page</h1>
+    <p>Here you can add/edit/delete your QMO members</p>
+
+  <form method="POST" action="{% url 'join'  %}"><hr><br>
+    {% csrf_token %}
+    <div class="mb-3">
+      <input type="text" class="form-control" id="Inputfname"  placeholder="Your First Name here" name="fname" value="{{ fname }}">
+    </div>
+    <div class="mb-3">
+      <input type="text" class="form-control" id="Inputlname" placeholder="Your Last Name here" name="lname" value="{{ lname }}">
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Your email address here" name="email" value="{{ email }}">
+    </div>
+    <div class="mb-3">
+      <input type="text" class="form-control" id="InputQmo_level" placeholder="Your QMO Level here" name="qmo_level" value="{{ qmo_level }}">
+    </div>
+    <div class="mb-3">
+      <input type="password" class="form-control" id="InputPassword" placeholder="Your password here" name="passwd" value="{{ passwd }}">
+    </div>
+      <div class="mb-3">
+      <input type="password" class="form-control" id="repeatInputPassword" placeholder="Your password again here" name="passwd2" value="{{ passwd2 }}">
+    </div>
+
+        <button type="submit" class="btn btn-secondary">Sign Up</button>
+
+  </form>
+
+
+
+{% endblock %}
