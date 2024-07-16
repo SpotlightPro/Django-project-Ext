@@ -38,3 +38,7 @@ def join(request):
         return redirect('home')
     else:
         return render(request, 'join.html', {})
+
+
+def area(request):
+    return render(request, 'area.html', {})

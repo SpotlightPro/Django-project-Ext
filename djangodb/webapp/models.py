@@ -12,3 +12,13 @@ class Member(models.Model):
 
     def __str__(self):
         return self.fname + ' ' + self.lname + ' -  QMO Level: ' + self.qmo_level
+
+
+class Location(models.Model):
+    loc_name = models.CharField(max_length=200)
+    loc_description = models.CharField(max_length=150)
+    loc_risk = models.CharField(max_length=15)
+    loc_comment = models.TextField(max_length=500)
+
+    def __str__(self):
+        return self.loc_name

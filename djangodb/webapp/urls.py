@@ -6,4 +6,5 @@ urlpatterns = [
    path('', views.home, name="home"),
    path('join/', views.join, name="join"),
    path('qmo_member/', views.join, name="qmo_member"),
+   path('area/', views.area, name="area"),
 ]

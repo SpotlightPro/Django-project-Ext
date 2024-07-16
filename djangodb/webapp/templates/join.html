@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
 
 {%  block content %}
-
+<div class="header">
 <h1 xmlns="http://www.w3.org/1999/html">Join Members Form Page</h1>
     <p>Here you can add/edit/delete your QMO members</p>
+</div>
 
   <form method="POST" action="{% url 'join'  %}"><hr><br>
     {% csrf_token %}
