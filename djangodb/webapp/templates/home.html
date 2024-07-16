@@ -1,19 +1,21 @@
 {% extends 'base.html' %}
 
-{%  block content %}
+<div class="container">
+    {%  block content %}
 
-      <br/><h1>QMO Members List</h1>
-{% for item in all %}
+          <br/><h1>QMO Tools home page</h1>
+        {% for item in all %}
 
-   <div>
-       <h3>{{ item.fname }}  {{ item.lname }}</h3>
-   </div>
-    <div>
-        <span>Email: {{ item.email }}  -    </span>
-        <strong>QMO Level: </strong>{{ item.qmo_level }}
-    </div>
-    <hr>
+               <div class="container">
+               <h3>Welcome to QMO Tools page!</h3>
+            </div>
+            <div>
+                <span>Email: {{ item.email }}  -    </span>
+                <strong>QMO Level: </strong>{{ item.qmo_level }}
+            </div>
+            <hr>
 
-{% endfor %}
+        {% endfor %}
 
-{% endblock %}
+    {% endblock %}
+</div>
