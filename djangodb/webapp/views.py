@@ -1,7 +1,10 @@
-from django.shortcuts import render, redirect
-from .models import Member
-from .forms import MemberForm
 from django.contrib import messages
+from django.shortcuts import render, redirect
+from .forms import MemberForm
+from .forms import AuditsForm
+from .models import Member
+from .models import Audit
+
 
 
 # Create your views here.
@@ -42,3 +45,8 @@ def join(request):
 
 def area(request):
     return render(request, 'area.html', {})
+
+
+def audits(request):
+    all_audits = Audit.objects.all
+    return render(request, 'audits.html', {'all_audits':all_audits})

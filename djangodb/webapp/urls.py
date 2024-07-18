@@ -4,7 +4,8 @@ from . import views
 
 urlpatterns = [
    path('', views.home, name="home"),
-   path('join/', views.join, name="join"),
-   path('qmo_member/', views.join, name="qmo_member"),
+   path('qmo_member/', views.qmo_member, name="qmo_member"),
    path('area/', views.area, name="area"),
+   path('join/', views.join, name="join"),
+   path('audits/', views.audits, name="audits"),
 ]
