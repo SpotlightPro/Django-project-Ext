@@ -8,31 +8,32 @@
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
 </head>
 <body>
-
-<br/>
 <div class="container">
-    {% include "navbar.html" %}
-{%  if messages %}
+    <br/>
+    <div class="container">
+        {% include "navbar.html" %}
+    {%  if messages %}
 
-    {% for message  in messages %}
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            {{ message }}
-          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div><hr>
-    {% endfor %}
+        {% for message  in messages %}
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                {{ message }}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div><hr>
+        {% endfor %}
 
-{% endif %}
+    {% endif %}
 
-<br/><br/>
+    <br/><br/>
 
-    {%  block content %}
-
-
-
-
+        {%  block content %}
 
 
-    {% endblock %}
+
+
+
+
+        {% endblock %}
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

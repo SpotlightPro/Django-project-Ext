@@ -3,6 +3,10 @@ body {
     color: 111;
 
 }
+.sm-header div{
+    --bs-light-text-emphasis: #495057;
+}
+
 .header p{
     color: orange;
     background-color: #7teared717;

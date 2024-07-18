@@ -2,17 +2,88 @@
 
 <div class="container">
     {%  block content %}
- <h1>This is the page for your audits</h1>
-    {% for au in all_audits %}
-
-
-
-    <p>{{ au.audit_loc }} - {{ au.loc_name }} - {{ au.kitchen }} - {{ au.store_01 }} - {{ au.store_02 }} - {{ au.store_03 } -
-        {{ au.playground_01 }} - {{au.playground_02 }} - {{ au.parents_rm_01 }} - {{ au.parents_rm_02 }} - {{ au.office_01 }}
-        - {{ au.office_02 }} - {{ au.office_03 }} - {{ au.doctors_office_01 }} - {{ au.doctors_office_02 }}</p><hr>
-
-    {% endfor %}
-
-    {% endblock %}
+     <h1>This is the page for your audits</h1>
 </div>
+{% for au in all_audits %}
+
+        <div class="text-primary text-opacity-75">
+            <h3>{{ au.audit_loc }}</h3>
+        </div>
+
+    <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <td scope="col">#</td>
+              <td scope="col">Name</td>
+              <td scope="col">Code</td>
+              <td scope="col">#</td>
+              <td scope="col">Name</td>
+              <td scope="col">Code</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Kitchen</td>
+              <td>{{ au.kitchen }}</td>
+              <th scope="row">2</th>
+              <td>Staff Rm</td>
+              <td>{{ au.store_01 }}</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Store1</td>
+              <td>{{ au.store_02 }}</td>
+              <th scope="row">4</th>
+              <td>Store2</td>
+              <td>{{ au.store_03 }</td>
+            </tr>
+          <tr>
+              <th scope="row">5</th>
+             <td>Play rm1</td>
+             <td>{{ au.playground_01 }}</td>
+              <th scope="row">6</th>
+              <td>Play rm2</td>
+              <td>{{au.playground_02 }}</td>
+            </tr>
+          <tr>
+              <th scope="row">7</th>
+              <td>Parents1</td>
+              <td>{ au.parents_rm_01 }}</td>
+              <th scope="row">8</th>
+              <td>Parents2</td>
+              <td>{{ au.parents_rm_02 }}</td>
+            </tr>
+          <tr>
+              <th scope="row">9</th>
+              <td>Office1</td>
+              <td>{{ au.office_01 }}</td>
+              <th scope="row">10</th>
+              <td>Office2</td>
+              <td>{{ au.office_02 }}</td>
+            </tr><tr>
+              <th scope="row">11</th>
+              <td>Office3</td>
+              <td>{{ au.office_03 }}</td>
+              <th scope="row">12</th>
+              <td>Dr Office1</td>
+              <td>{{ au.doctors_office_01 }}</td>
+            </tr><tr>
+              <th scope="row">13</th>
+              <td>Dr Office2</td>
+               <td>{{ au.doctors_office_02 }}</td>
+            </tr>
+
+
+
+
+
+          </tbody>
+        </table>
+    </div>
+
+  {% endfor %}
+{% endblock %}
+
 
