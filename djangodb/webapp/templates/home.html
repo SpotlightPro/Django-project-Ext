@@ -1,13 +1,15 @@
 {% extends 'base.html' %}
+{% load static %}
 
 <div class="container">
     {%  block content %}
 
-          <br/><h1>QMO Tools home page</h1>
-        {% for item in all %}
+        <h1 class="hearer">QMO Tools home page</h1>
+               {% for item in all %}
 
                <div class="container">
                <h3>Welcome to QMO Tools page!</h3>
+
             </div>
             <div>
                 <span>Email: {{ item.email }}  -    </span>

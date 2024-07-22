@@ -7,16 +7,30 @@ body {
     --bs-light-text-emphasis: #495057;
 }
 
+.logo {
+    background-color: hsla(50, 33%, 25%, .75);;
+    background-image: url("./static/images/qmo-banner.jpg");
+    background-repeat-y:no-repeat;
+    color; #fff;
+}
+
 .header p{
     color: orange;
     background-color: #7teared717;
 }
 
 h1{
-    font-size:3rem;
-    color: rgb(18 82 135 / 88%);
-    background-color: #ff bf0014;
+    font-size: 3rem;
+    color: #fff;
+    background-color: #232e39;
+    margin:0;
+    padding:0;
 }
 span {
     color: light-blue;
+}
+
+.red {
+    color: red !important;
+    font-family: bold;
 }

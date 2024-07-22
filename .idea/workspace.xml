@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20cc5be9-6a89-4e07-a435-feadf04a9269" name="Changes" comment="Day 3: Added 3 more web pages to views and works fine. They just need ajbustment and beautifying which is my next step.">
+      <change afterPath="$PROJECT_DIR$/djangodb/static/images/QMO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangodb/static/images/qmo-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangodb/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangodb/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangodb/djangodb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangodb/djangodb/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangodb/djangodb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangodb/djangodb/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangodb/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/djangodb/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangodb/webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangodb/webapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangodb/webapp/templates/audits.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangodb/webapp/templates/audits.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangodb/webapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangodb/webapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangodb/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangodb/webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangodb/webapp/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangodb/webapp/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,26 +35,26 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Dev-Day-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SpotlightPro"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SpotlightPro&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SpotlightPro/Django-project-Ext.git",
-    "accountId": "e241ad9a-8ee4-419b-9430-82de5265ce4c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SpotlightPro/Django-project-Ext.git&quot;,
+    &quot;accountId&quot;: &quot;e241ad9a-8ee4-419b-9430-82de5265ce4c&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2jJXBe6raeSiETB26j2JTVCvuPL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,10 +69,15 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Dev-Day-1"
+    "git-widget-placeholder": "Dev-Day-4",
+    "last_opened_file_path": "/home/ubuntu/Documents/WebDevelopment/DjangoProjects/Django-Tutorials/Django Project-6-Ext/djangodb/static/images",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/djangodb/static/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/djangodb" />
       <recent name="$PROJECT_DIR$/djangodb/webapp/static/css" />

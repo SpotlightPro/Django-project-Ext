@@ -43,6 +43,9 @@ class Risk(models.Model):
     member_name = models.ForeignKey(Member, on_delete=models.SET_NULL, null=True)
     door_name = models.CharField(door_choices, max_length=20, null=True, blank=True)
 
+    def __str__(self):
+        return self.door_name
+
 
 class Audit(models.Model):
     audit_loc = models.ForeignKey(Location, on_delete=models.CASCADE, null=False)
